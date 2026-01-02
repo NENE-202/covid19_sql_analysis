@@ -19,6 +19,17 @@ Source: Our World in Data (OWID) COVID-19 Dataset
 - Handled missing values using NULLIF and COALESCE
 - Created a clean analytical table from raw data
 
+  ## 🖼️ SQL Query Execution Evidence
+
+Below are screenshots showing SQL queries executed in pgAdmin
+and their corresponding outputs.
+
+![Create Table](screenshots/create_varchar_sql.png)
+![Data Cleaning](screenshots/convert_text_to_date_numeric.png)
+![Global Case Trend](screenshots/new_case_trend_over_time.png)
+![Top 10 Countries](screenshots/top_10_countries_cases.png)
+
+
 ## 🔍 Analysis Performed
 - Global daily COVID-19 case trends
 - Top countries by total cases
